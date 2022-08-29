@@ -4,9 +4,10 @@ Quality: 720p
 =================
 www.downloadly.ir
 
-*******************************************************************
-			01 - Getting Started
-------------------------------------------------------------------
+*******************************************************************************************
+================================================================================================================================================
+01 - Getting Started
+================================================================================================================================================
 npm install -g expo-cli
 expo init MyApp
 		(expo.dev)
@@ -44,9 +45,9 @@ Expo Go app:
 Android Studio or xcode (for ios):
 		-android studio -> more actions -> virtual device manager -> create device -> after install choose play action
 
----------------------------------------------------------------------------
-		02 - React Native Basics [COURSE GOALS APP]
----------------------------------------------------------------------------
+================================================================================================================================================
+02 - React Native Basics [COURSE GOALS APP]
+================================================================================================================================================
 Styling:
 	StyleSheet.create({}) 	--> Exp: <Text style={{margin:...}} />
 	paddingY --> paddingHorizontal
@@ -113,16 +114,24 @@ Modal:
 		animationType=''
 	></Modal>
 	
----------------------------------------------------------------------------------
-		04-Diving Deeper int components, layouts.. Game App
----------------------------------------------------------------------------------
-elevation ----------------------------------> saye ijad mikone barae android..
-shadowColor, shadowOffset, shadowOpacity ---> barae IOS estefade mishe
-LiniearGradient ----------------------------> barae expo hast va az expo import mishe
-				mesle hamun gradiant hae css kar mikone
----------------------------------------------------------------------------------
+================================================================================================================================================
+04-Diving Deeper int components, layouts.. Game App
+================================================================================================================================================
+elevation ------------just in android work----------------> saye ijad mikone barae android...				-dakhele style estefade mishe...
+shadowColor, shadowOffset, shadowOpacity, shadowRadius ---> barae IOS estefade mishe
+LiniearGradient ------------------------------------------> barae expo hast va az expo import mishe 		-mesle hamun gradiant hae css kar mikone		#expo install expo-linear-gradient			<LinearGradient colors={['#1111','#2222']} style={styles.}
+borderBottomWidth ----------------------------------------> koloftie border ro dar nazar migire
+color ----------------------------------------------------> range font
+maxLength ------------------------------------------------> dakhele input estefade mishe va hade axar tule input ro barresi mikone 
+keyboardType='number-pad' --------------------------------> noe keyboard moshakhas mikone
+autoCapitalize -------------------------------------------> dakhele TextInput estefade mishe
+autoCorrect ----------------------------------------------> dakhele TextInput estefade mishe 
+<ImageBackground resizeMode='cover' imageStyle={}> -------> az react-native import mishe
+Alert.alert() --------------------------------------------> alert mide
+14
+================================================================================================================================================
 05-
----------------------------------------------------------------------------------
+================================================================================================================================================
 Dimensions ---> Dimensions.get('window').width
 			mitoonim bahash andaze safhe ro b dast biarim, 'window' dakhele android javab mide, barae IOS har do javab mide
 
@@ -131,9 +140,9 @@ Dimensions ---> Dimensions.get('window').width
 useWindowDimentions ---> import from 'react-native' ---> const {width, height} = useWindowDimentions()
 platform ---> import from 'react-native' ---> platform.os ya platform.select ... ---> style ha modiriat mishe nahashun
 
----------------------------------------------------------------------------------
+================================================================================================================================================
 06-
----------------------------------------------------------------------------------
+================================================================================================================================================
  react navigation:
 	npm install @react-navigation/native
 	expo install react-native-screens react-native-safe-area-context
