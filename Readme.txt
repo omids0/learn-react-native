@@ -14,22 +14,22 @@ expo init MyApp
 app.js:
 		defrence between ReactJS vs. React-Native:
 
-				ReactJS		React-Native
+				ReactJS					React-Native
 			-----------------------------------------
-				<div>		<view>		----------->	*onClick nadare v bejash ma az <Pressable onPress={}> estefade mikonim
-				<input>		<TextInput>	===props===>	onChange	onChangeText
-				<p>		<Text>
-				<button>	<Button 
-							title='...'
-							color='...'
-							onPress={...}
-						/>		===props===>	onClick		onPress		-style dehi b surat props hae az pish tarif shodas... mesle color={}
-				-		<ScrollView>
-				-		<FlatList>							-insted of ScrollView we can use
-				-		<Switch>
-				-		<Pressable onPress={}>
-				<img>		<Image source={require('../assets/images/goal.png')} />
-				-		<SafeAreaView>							-ertefa fullscreen ro eslah mikone v tanzim mikone(IOS)
+				<div>					<view>		----------->	*onClick nadare v bejash ma az <Pressable onPress={}> estefade mikonim
+				<input>					<TextInput>	===props===>	onChange	onChangeText
+				<p>						<Text>
+				<button>				<Button 
+											title='...'
+											color='...'
+											onPress={...}
+										/>			===props===>		onClick		onPress		-style dehi b surat props hae az pish tarif shodas... mesle color={}
+				-						<ScrollView>
+				-						<FlatList>												-insted of ScrollView we can use
+				-						<Switch>
+				-						<Pressable onPress={}>
+				<img>					<Image source={require('../assets/images/goal.png')} />
+				-						<SafeAreaView>											-ertefa fullscreen ro eslah mikone v tanzim mikone(IOS)
 				
 
 				*There is no CSS in React native but base on css syntax we can styling
@@ -57,7 +57,6 @@ Handling Events:
 	}
 
 	function addGoalHandler(){}
-
 
 
 	<TextInput onChangeText={goalInputHandler} placeholder='abcd' />
@@ -115,18 +114,17 @@ Modal:
 	></Modal>
 	
 ---------------------------------------------------------------------------------
-		04-Diving Deeper intt components, layouts.. Game App
+		04-Diving Deeper int components, layouts.. Game App
 ---------------------------------------------------------------------------------
-
-elevation ---> saye ijad mikone barae android..
+elevation ----------------------------------> saye ijad mikone barae android..
 shadowColor, shadowOffset, shadowOpacity ---> barae IOS estefade mishe
-LiniearGradient ---> 	barae expo hast v az expo import mishe
+LiniearGradient ----------------------------> barae expo hast va az expo import mishe
 				mesle hamun gradiant hae css kar mikone
 ---------------------------------------------------------------------------------
 05-
 ---------------------------------------------------------------------------------
 Dimensions ---> Dimensions.get('window').width
-			mitoonim bahash abdaze safhe ro b dast biarim, 'window' dakhele android javab mide, barae IOS har do javab mide
+			mitoonim bahash andaze safhe ro b dast biarim, 'window' dakhele android javab mide, barae IOS har do javab mide
 
 <KeyboadAvoidingView style={} behavior='position'> ---> import from 'react-native' ---> ba in mitoonim keyboard va  modiriat konim
 
@@ -157,18 +155,6 @@ platform ---> import from 'react-native' ---> platform.os ya platform.select ...
 			{key, name of the screen, path, params, navigat
 
 
-
-
-
-
-
-storybook
-jest test
-side press
-EE test ui
-Uniq test --->  ba db sar kar nadare
-integeration test ----> vasl mishe b db
-pad-3473
 
 
 
