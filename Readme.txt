@@ -117,9 +117,9 @@ Modal:
 ================================================================================================================================================
 04-Diving Deeper int components, layouts.. Game App
 ================================================================================================================================================
-elevation ------------just in android work----------------> saye ijad mikone barae android...				-dakhele style estefade mishe...
+elevation ------------just in android work----------------> saye ijad mikone barae android...							-dakhele style estefade mishe...
 shadowColor, shadowOffset, shadowOpacity, shadowRadius ---> barae IOS estefade mishe
-LiniearGradient ------------------------------------------> barae expo hast va az expo import mishe 		-mesle hamun gradiant hae css kar mikone		#expo install expo-linear-gradient			<LinearGradient colors={['#1111','#2222']} style={styles.}
+LiniearGradient ------------------------------------------> barae expo hast va az expo import mishe 					-mesle hamun gradiant hae css kar mikone		#expo install expo-linear-gradient			<LinearGradient colors={['#1111','#2222']} style={styles.}
 borderBottomWidth ----------------------------------------> koloftie border ro dar nazar migire
 color ----------------------------------------------------> range font
 maxLength ------------------------------------------------> dakhele input estefade mishe va hade axar tule input ro barresi mikone 
@@ -129,7 +129,12 @@ autoCorrect ----------------------------------------------> dakhele TextInput es
 <ImageBackground resizeMode='cover' imageStyle={}> -------> az react-native import mishe
 Alert.alert() --------------------------------------------> alert mide
 <SafeAreaView> -------------------------------------------> ghesmate ghabele namayesh ro pooshesh mide
-20
+expo-vector-icons ----------------------------------------> <Ionicons name='md-remove' size={24} color='white' />		-bayad nasb koni
+expo install expo-font -----------------------------------> barae avaz kardane font nasb mishe -------------------------> useFonts({
+																															'open-sans': require(./assets/fonts/file.ttf)
+																															})
+expo install expo-app-loading------------splash-----------> import AppLoading from 'expo-app-loading' ------------------> 
+27
 ================================================================================================================================================
 05-
 ================================================================================================================================================
