@@ -133,8 +133,8 @@ expo-vector-icons ----------------------------------------> <Ionicons name='md-r
 expo install expo-font -----------------------------------> barae avaz kardane font nasb mishe -------------------------> useFonts({
 																															'open-sans': require(./assets/fonts/file.ttf)
 																															})
-expo install expo-app-loading------------splash-----------> import AppLoading from 'expo-app-loading' ------------------> 
-27
+expo install expo-app-loading------------splash-----------> import AppLoading from 'expo-app-loading'
+<image source={require('location')} /> -------------------> import from 'react-native'
 ================================================================================================================================================
 05-
 ================================================================================================================================================
