@@ -136,10 +136,9 @@ expo install expo-font -----------------------------------> barae avaz kardane f
 expo install expo-app-loading------------splash-----------> import AppLoading from 'expo-app-loading'
 <image source={require('location')} /> -------------------> import from 'react-native'
 ================================================================================================================================================
-05-
+05 - Building Adaptive User Interfaces (Adapt to Platform & Device Sizes)
 ================================================================================================================================================
-Dimensions ---> Dimensions.get('window').width
-			mitoonim bahash andaze safhe ro b dast biarim, 'window' dakhele android javab mide, barae IOS har do javab mide
+Dimensions -----------------------------------------------> Dimensions.get('window').width ------------------------------> mitoonim bahash andaze safhe ro b dast biarim, 'window' dakhele android javab mide, barae IOS har do javab mide		
 
 <KeyboadAvoidingView style={} behavior='position'> ---> import from 'react-native' ---> ba in mitoonim keyboard va  modiriat konim
 
