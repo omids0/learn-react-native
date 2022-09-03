@@ -26,7 +26,7 @@ app.js:
 											onPress={...}
 										/>			===props===>		onClick		onPress		-style dehi b surat props hae az pish tarif shodas... mesle color={}
 				-						<ScrollView>
-				-						<FlatList>												-insted of ScrollView we can use
+				-						<FlatList numColumns={2}>								-insted of ScrollView we can use
 				-						<Switch>
 				-						<Pressable onPress={}>
 				<img>					<Image source={require('../assets/images/goal.png')} />
@@ -151,26 +151,41 @@ StatusBar -----------------------------------------------> import {StatusBar} fr
 ================================================================================================================================================
 06- React Native Navigation with React Navigation [MEALS APP]
 ================================================================================================================================================
- react navigation:
-	npm install @react-navigation/native
-	expo install react-native-screens react-native-safe-area-context
+ react navigation: ---------------------------------------> {1-npm install @react-navigation/native, 
+ 															 2-expo install react-native-screens react-native-safe-area-context
+															 3-npm install @react-navigation/native-stack}
+	
+	React Navigation Exp:
 
 	import { NavigationContainer } from '@react-navigation/native'
+	import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 	const Stack = createNativeStackNavigator()
 	
 	<NavigationContainer>
 		<Stack.Navigator>
-			<Stack.screen name='' component={} />
+			<Stack.screen name='' component={*NOT AS A JSX ELEMENT*} />
 		</Stack.Navigator>
 	</NavigationContainer>
 
-	navigation.navigate('esm', {  })
+-dakhele func ma in ro gharar midim k ba estefade az onPress handle mikonim:
+
+	const function X(){
+		navigation.navigate('screen name', { parametr ha ro inja midim barae estefade hae props tor })
+	}
+
+	*Tip: inja navigate jozi az navigation.params hastesh... props hae dg darim... mesle {goBack, ...}
+	*Tip 2: props hae *navigation, route, ...* az tarighe <Stack.screen /> gerefte mishe
+
+-mitoonim az useNavigation hook niz estefade kard
+	import { useNavigation } from '@react-navigation/native'
+	const navigation = useNavigation()
+	
 
 	Route prop reference:
 		each screen component in your app is provide with the route prop automaticlly.
 			{key, name of the screen, path, params, navigat
-
+09
 
 
 
