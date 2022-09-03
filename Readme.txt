@@ -145,8 +145,11 @@ Dimensions -----------------------------------------------> Dimensions.get('wind
 useWindowDimentions ---> import from 'react-native' ---> const {width, height} = useWindowDimentions()
 platform ---> import from 'react-native' ---> platform.os ya platform.select ... ---> style ha modiriat mishe nahashun
 
+KeyboadAvoidingView -----> bayad dakhele root gharar begire va dakhele ScrollView ghara migire ----> bishtar barae IOS karbordie
+platform ----> borderWidth: Platform.OS === 'android' ? 2 : 0 ************ borderWidth: Platform.select({ios: 0, android: 2})
+StatusBar -----------------------------------------------> import {StatusBar} from 'expo-status-bar' ----------> un status darbare batrio anten ro mitoonim check konim k dark bashe ya light -----> root gharar migire
 ================================================================================================================================================
-06-
+06- React Native Navigation with React Navigation [MEALS APP]
 ================================================================================================================================================
  react navigation:
 	npm install @react-navigation/native
