@@ -163,8 +163,8 @@ StatusBar -----------------------------------------------> import {StatusBar} fr
 	const Stack = createNativeStackNavigator()
 	
 	<NavigationContainer>
-		<Stack.Navigator>
-			<Stack.screen name='' component={*NOT AS A JSX ELEMENT*} />
+		<Stack.Navigator screenOptions={{*STYLE BARAE HAME SAFEHA EMAL MISHE*}}>
+			<Stack.screen name='' component={*NOT AS A JSX ELEMENT*} options={{title: 'All Categories'}} />
 		</Stack.Navigator>
 	</NavigationContainer>
 
@@ -185,13 +185,10 @@ StatusBar -----------------------------------------------> import {StatusBar} fr
 	Route prop reference:
 		each screen component in your app is provide with the route prop automaticlly.
 			{key, name of the screen, path, params, navigat
-09
 
 
+-import {useLayoutEffect} from 'react'
+	mesle useEffect kar mikone ba in tafavote ke b mahze render shodane layout in hook render mishe
 
 
-
-
-
-
-
+14
