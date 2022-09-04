@@ -149,7 +149,7 @@ KeyboadAvoidingView -----> bayad dakhele root gharar begire va dakhele ScrollVie
 platform ----> borderWidth: Platform.OS === 'android' ? 2 : 0 ************ borderWidth: Platform.select({ios: 0, android: 2})
 StatusBar -----------------------------------------------> import {StatusBar} from 'expo-status-bar' ----------> un status darbare batrio anten ro mitoonim check konim k dark bashe ya light -----> root gharar migire
 ================================================================================================================================================
-06- React Native Navigation with React Navigation [MEALS APP]
+06- React Native Navigation with React Navigation [MEALS APP] ----------> documantion is in React Navigation
 ================================================================================================================================================
  react navigation: ---------------------------------------> {1-npm install @react-navigation/native, 
  															 2-expo install react-native-screens react-native-safe-area-context
@@ -210,6 +210,7 @@ StatusBar -----------------------------------------------> import {StatusBar} fr
 		</Drawer.Navigator>
 	</NavigationContainer>
 
-	*initialRouteName: mige k aval koodoom safe bydefault biad bala 
-
-20
+	*initialRouteName: mige k aval koodoom safe bydefault biad bala,,,agar nazarimesh mire az avalin Drawer.Screen shooroo b khundan mikone...
+================================================================================================================================================
+07 - App-wide State Management with Redux & Context API
+================================================================================================================================================
