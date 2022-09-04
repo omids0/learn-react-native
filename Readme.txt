@@ -190,5 +190,26 @@ StatusBar -----------------------------------------------> import {StatusBar} fr
 -import {useLayoutEffect} from 'react'
 	mesle useEffect kar mikone ba in tafavote ke b mahze render shodane layout in hook render mishe
 
+-adding button to header:
+	<Stack.Screen name='mealDetail" component={component} options={{
+		headerRight: () => {
+			return <Text>In the header</Text>
+		}
+	}}
 
-17
+-import { crateDrawerNavigator } from '@react-navigation/drawer' ---------------------> menu az kenar miad va mitoonim estefade konim
+	npm install @react-navigation/drawer
+
+	dakhele NavigationContainer bayad gharar bedim...
+
+	const Drawer = crateDrawerNavigator()
+
+	<NavigationContainer>
+		<Drawer.Navigator initialRouteName='user'>
+			<Drawer.Screen name='name' component={component} />
+		</Drawer.Navigator>
+	</NavigationContainer>
+
+	*initialRouteName: mige k aval koodoom safe bydefault biad bala 
+
+20
