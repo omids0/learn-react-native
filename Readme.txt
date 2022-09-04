@@ -134,7 +134,7 @@ expo install expo-font -----------------------------------> barae avaz kardane f
 																															'open-sans': require(./assets/fonts/file.ttf)
 																															})
 expo install expo-app-loading------------splash-----------> import AppLoading from 'expo-app-loading'
-<image source={require('location')} /> -------------------> import from 'react-native'
+<image source={require('location')} /> -------------------> import from 'react-native' ----------------------------------> mishe az uri bejae require estefade kard
 ================================================================================================================================================
 05 - Building Adaptive User Interfaces (Adapt to Platform & Device Sizes)
 ================================================================================================================================================
@@ -191,4 +191,4 @@ StatusBar -----------------------------------------------> import {StatusBar} fr
 	mesle useEffect kar mikone ba in tafavote ke b mahze render shodane layout in hook render mishe
 
 
-14
+17
